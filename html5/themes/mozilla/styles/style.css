@@ -9,7 +9,7 @@
 @import url(reset.css);
 
 BODY {
-	font:25px/1.8 'Liberation Sans', 'Open Sans', sans-serif;
+	font:25px/1.8 'Open Sans', sans-serif;
 	counter-reset:paging;
 	}
 
@@ -132,7 +132,7 @@ body:after {
 	margin:0 0 58px;
 	color:rgb(62,62,62);
 	text-transform: uppercase;
-	font:lighter 40px/1.13 'Liberation Sans', 'Open Sans', sans-serif;
+	font:lighter 40px/1.13 'Open Sans', sans-serif;
 	}
 
 /* Elements */
@@ -192,7 +192,7 @@ body:after {
 	position:absolute;
 	margin:-15px 0 0 -80px;
 	color:#666;
-	font:200px/1 'Liberation Sans', 'Open Sans', sans-serif;
+	font:200px/1 'Open Sans', sans-serif;
 	content:'\201C'; /* ldquo */
 	}
 blockquote .quotesource {
@@ -335,7 +335,7 @@ blockquote .quotesource {
 	position:absolute;
 	top:50%;
 	left:0;
-  width: 100%;
+	width:100%;
 	text-align:center;
 	line-height:1;
 	font-size:150px;
@@ -402,7 +402,7 @@ blockquote .quotesource {
 	text-shadow:0 1px 1px #000;
 	}
 	.list .caption h1 {
-		font:bold 50px/1 'Liberation Sans', 'Open Sans', sans-serif;
+		font:bold 50px/1 'Open Sans', sans-serif;
 		}
 	.list .caption a {
 		color:#fff;
