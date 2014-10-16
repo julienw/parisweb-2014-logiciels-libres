@@ -129,11 +129,15 @@
 </section>
 </div></div>  
 
-<div id="moi-et-mon-histoire-2" class="slide oneline"><div>
+<div id="moi-et-mon-histoire-2" class="slide"><div>
 <section>
   <header>
-  <h2>Orange Labs puis Mozilla</h2>
+  <h2>Moi, encore</h2>
   </header>
+  <ul class='inner'>
+    <li class='active'>Orange Labs</li>
+    <li>Mozilla</li>
+  </ul>
   <footer class="notes">
     J'ai passé 8 ans chez Orange Labs, dont 4 où je me suis occupé (à temps
     partiel) de la gestion des logiciels libres. J'ai notamment appris pas mal
@@ -142,50 +146,53 @@
 </section>
 </div></div>  
 
-<div id="principes-title" class="slide shout"><div>
+<div id="principes-title" class="slide oneline"><div>
 <section>
   <header>
-  <h2>Libre</h2>
+  <h2>Qu'est-ce qu'un logiciel libre&nbsp;?</h2>
   </header>
   
   <footer class="notes">
-    Qu'est-ce qu'un logiciel libre ?
   </footer>
 </section>
 </div></div>  
 
-<div id="libre-historique-1" class="slide oneline"><div>
+<div id="libre-historique-1" class="slide"><div>
 <section>
   <header>
-  <h2>À l'origine, partage et code source entre hackers</h2>
+  <h2>Historique rapide du libre</h2>
   </header>
-  
+  <ul class='inner'>
+    <li class='active'>À l'origine, partage et code source entre hackers</li>
+    <li>Stallman crée la FSF et le projet GNU</li>
+  </ul>
   <footer class="notes">
+    <p>
     Les hackers partageaient leur code et avaient le sens du perfectionnisme.
     Cela a changé lorsque l'informatique s'est dévelopée: plus de code source,
     plus de partage, nombre croissant de logiciels privateurs.
+    </p>
+    <p>
+    Richard Stallman décide de créer la Free Software Foundation pour retrouver
+    les réflexes de partage du début de l'informatique.
+    </p>
   </footer>
 </section>
 </div></div>
 
-<div id="libre-historique-2" class="slide oneline"><div>
-<section>
-  <header>
-  <h2>Stallman crée la FSF et le projet GNU</h2>
-  </header>
-  
-  <footer class="notes">
-    Richard Stallman décide de créer la Free Software Foundation pour retrouver
-    les réflexes de partage du début de l'informatique.
-  </footer>
-</section>
-</div></div>  
-
-<div id="libre-historique-3" class="slide oneline"><div>
+<div id="libre-historique-3" class="slide"><div>
 <section>
   <header>
   <h2>Les licences sont des contrats</h2>
   </header>
+
+  <ul class='inner'>
+    <li class='active'>Sans licence, un utilisateur n'a aucun droit sur un logiciel.</li>
+    <li>Un contrat permet de définir les droits accordés à l'utilisateur.</li>
+    <li>Un contrat ne lit que le propriétaire du logiciel et 1 utilisateur.</li>
+    <li>Le logiciel libre détourne ces règles pour donner beaucoup de droits à
+      l'utlisateur.</li>
+  </ul>
   
   <footer class="notes">
     <p>Stallman et la FSF décident de contourner le principe du copyright en
@@ -199,7 +206,7 @@
 </section>
 </div></div>  
 
-<div id="libertes-titre" class="slide shout"><div>
+<div id="libertes-titre" class="slide oneline"><div>
 <section>
   <header>
   <h2>Des libertés</h2>
@@ -217,8 +224,8 @@
   <h2>Les 4 libertés</h2>
   </header>
 
-  <ul>
-    <li>Liberté d'exécuter le programme</li>
+  <ul class='inner'>
+    <li class='active'>Liberté d'exécuter le programme</li>
     <li>Liberté d'étudier le fonctionnement du programme et de l'adapter à ses
     besoins. Accès au code source.</li>
     <li>Liberté de redistribuer des copies.</li>
@@ -236,7 +243,7 @@
 </section>
 </div></div>  
 
-<div id="jargon-title" class="slide shout"><div>
+<div id="jargon-title" class="slide oneline"><div>
 <section>
   <header>
   <h2>Du jargon</h2>
@@ -258,6 +265,7 @@
     <li>Code repository (dépôt de code)</li>
     <li>Pull request (demande d'intégration de modification)</li>
     <li>Patch (modification)</li>
+  </ul>
   <footer class="notes">
     <p>La première étape pour avoir un problème corrigé, c'est d'ouvrir un bug.
     Cela signifie que l'on va aller sur le logiciel de suivi et
@@ -289,6 +297,25 @@
     <p>Dans les logiciels hébergés sur une plate-forme telle que GitHub,
     beaucoup de communication passe par les commentaires au sein d'une Pull
     Request.</p>
+  </footer>
+</section>
+</div></div>  
+
+<div id="jargon-comm-1" class="slide"><div>
+<section>
+  <header>
+  <h2>Les listes de diffusion</h2>
+  </header>
+  <ul class='inner'>
+    <li class='active'>C'est une adresse e-mail gérée par un logiciel.</li>
+    <li>On s'abonne à une liste.</li>
+    <li>On reçoit ensuite tous les messages envoyés à la liste.</li>
+    <li>Il peut y avoir plusieurs listes pour un logiciel.</li>
+    <li>Les listes de diffusion sont généralements archivées, les archives
+      peuvent ou non être lisibles par les non-abonnés.</li>
+    <li>Certaines listes peuvent avoi plusieurs centaines d'abonnés.</li>
+  </ul>
+  <footer class="notes">
     <p>Autrement, beaucoup de logiciels ont aussi un système de liste de
     diffusion: il suffit de s'y abonner, et on reçoit ensuite tous les mails
     envoyés sur la liste. Il est alors facile de discuter d'un problème.
@@ -303,17 +330,29 @@
     centaines d'abonnés. Dès lors, pour ne pas faire perdre de temps à tous, il
     est important d'avoir un sujet de mail adéquat, et de ne pas envoyer de
     mails inutiles (type "Moi aussi !").</p>
-    <p>Enfin, on peut également communiquer de manière synchrone et plus
-    informelle en utilisant
-    IRC. Il s'agit d'un système assez primitif de communication. On se connecte
-    sur un serveur, lui-même souvent connecté à d'autres serveurs, formant un
-    réseau. On peut alors rejoindre un canal ("channel") pour dialoguer avec les
-    autres personnes connectées au même moment.</p>
   </footer>
 </section>
-</div></div>  
+</div></div>
 
-<div id="et-vous" class="slide shout"><div>
+
+
+<div id="jargon-comm-irc" class="slide"><div>
+<section>
+  <header>
+  <h2>IRC</h2>
+  </header>
+  <ul class='inner'>
+    <li class='active'>Assez primitif, existe depuis 1988</li>
+    <li>Système de communication uniquement textuel, plutôt synchrone.</li>
+    <li>En rejoignant un canal de discussion, on peut dialoguer avec les
+      personnes connectées en même temps sur le même canal de discussion.</li>
+    <li>Des discussions privées sont également possibles.</li>
+    <li>Discussions plus informelles que sur une liste de diffusion.</li>
+  </ul>
+  <footer class="notes">
+  </footer>
+</section>
+</div></div><div id="et-vous" class="slide oneline"><div>
 <section>
   <header>
   <h2>Et vous ?</h2>
